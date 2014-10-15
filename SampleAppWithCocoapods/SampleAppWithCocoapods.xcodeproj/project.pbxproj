@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA079B5D19EE8C0E00DB4CEC /* libPods-SampleAppWithCocoapodsTests-Kiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA079B5C19EE8C0E00DB4CEC /* libPods-SampleAppWithCocoapodsTests-Kiwi.a */; };
+		BAA46ED019EE8CAD00298E67 /* KiwiSampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB0DFBA19EE7E2D00DD7E35 /* KiwiSampleSpec.m */; };
 		BAAFFED719EE788800F3AC91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFFED619EE788800F3AC91 /* main.m */; };
 		BAAFFEDA19EE788800F3AC91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFFED919EE788800F3AC91 /* AppDelegate.m */; };
 		BAAFFEDD19EE788800F3AC91 /* SampleAppWithCocoapods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAAFFEDB19EE788800F3AC91 /* SampleAppWithCocoapods.xcdatamodeld */; };
@@ -16,7 +17,6 @@
 		BAAFFEE519EE788800F3AC91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAFFEE419EE788800F3AC91 /* Images.xcassets */; };
 		BAAFFEE819EE788800F3AC91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAAFFEE619EE788800F3AC91 /* LaunchScreen.xib */; };
 		BAAFFEF419EE788800F3AC91 /* SampleAppWithCocoapodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFFEF319EE788800F3AC91 /* SampleAppWithCocoapodsTests.m */; };
-		BAB0DFBB19EE7E2D00DD7E35 /* KiwiSampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB0DFBA19EE7E2D00DD7E35 /* KiwiSampleSpec.m */; };
 		F761E78E22AAB7742FC07992 /* libPods-SampleAppWithCocoapodsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D114AC303B4F6AB61BB14A4C /* libPods-SampleAppWithCocoapodsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -299,7 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB0DFBB19EE7E2D00DD7E35 /* KiwiSampleSpec.m in Sources */,
+				BAA46ED019EE8CAD00298E67 /* KiwiSampleSpec.m in Sources */,
 				BAAFFEF419EE788800F3AC91 /* SampleAppWithCocoapodsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
