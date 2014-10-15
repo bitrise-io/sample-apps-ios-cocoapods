@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA079B5D19EE8C0E00DB4CEC /* libPods-SampleAppWithCocoapodsTests-Kiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA079B5C19EE8C0E00DB4CEC /* libPods-SampleAppWithCocoapodsTests-Kiwi.a */; };
 		BAAFFED719EE788800F3AC91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFFED619EE788800F3AC91 /* main.m */; };
 		BAAFFEDA19EE788800F3AC91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAFFED919EE788800F3AC91 /* AppDelegate.m */; };
 		BAAFFEDD19EE788800F3AC91 /* SampleAppWithCocoapods.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAAFFEDB19EE788800F3AC91 /* SampleAppWithCocoapods.xcdatamodeld */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		0C70F5AB9C9B8D6D420EADA3 /* Pods-SampleAppWithCocoapodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppWithCocoapodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppWithCocoapodsTests/Pods-SampleAppWithCocoapodsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81F848CE09EDD1BF962E8725 /* Pods-SampleAppWithCocoapodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleAppWithCocoapodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleAppWithCocoapodsTests/Pods-SampleAppWithCocoapodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA079B5C19EE8C0E00DB4CEC /* libPods-SampleAppWithCocoapodsTests-Kiwi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-SampleAppWithCocoapodsTests-Kiwi.a"; path = "Pods/build/Debug-iphoneos/libPods-SampleAppWithCocoapodsTests-Kiwi.a"; sourceTree = "<group>"; };
 		BAAFFED119EE788800F3AC91 /* SampleAppWithCocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppWithCocoapods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAFFED519EE788800F3AC91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAAFFED619EE788800F3AC91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA079B5D19EE8C0E00DB4CEC /* libPods-SampleAppWithCocoapodsTests-Kiwi.a in Frameworks */,
 				F761E78E22AAB7742FC07992 /* libPods-SampleAppWithCocoapodsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +75,7 @@
 		01413DA0750FCB1E178E39EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA079B5C19EE8C0E00DB4CEC /* libPods-SampleAppWithCocoapodsTests-Kiwi.a */,
 				D114AC303B4F6AB61BB14A4C /* libPods-SampleAppWithCocoapodsTests.a */,
 			);
 			name = Frameworks;
@@ -444,6 +448,10 @@
 				);
 				INFOPLIST_FILE = SampleAppWithCocoapodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleAppWithCocoapods.app/SampleAppWithCocoapods";
 			};
@@ -460,6 +468,10 @@
 				);
 				INFOPLIST_FILE = SampleAppWithCocoapodsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleAppWithCocoapods.app/SampleAppWithCocoapods";
 			};
