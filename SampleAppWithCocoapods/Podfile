@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+# Add Kiwi as an exclusive dependency for the Test target
+target :SampleAppWithCocoapodsTests, :exclusive => true do
+  pod 'Kiwi'
+end
