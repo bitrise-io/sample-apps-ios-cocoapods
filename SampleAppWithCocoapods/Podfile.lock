@@ -1,10 +1,13 @@
 PODS:
+  - Functional.m (1.0.0)
   - Kiwi (2.3.0)
 
 DEPENDENCIES:
+  - Functional.m (~> 1.0)
   - Kiwi
 
 SPEC CHECKSUMS:
+  Functional.m: e01ad5fc30324b63273af1f37284ac609192caa4
   Kiwi: 54bece5b35564d9b8e03c608d926f1a22fcfc589
 
 COCOAPODS: 0.34.2
