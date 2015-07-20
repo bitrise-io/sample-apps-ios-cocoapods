@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 
-#import "F.h"
-#import "NSArray+F.h"
+//#import "F.h"
+//#import "NSArray+F.h"
 
 @interface ViewController ()
 
@@ -20,8 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-     NSArray *numberArray = [NSArray arrayFrom:1 To:5];
-    NSLog(@"numberArray: %@", numberArray);
+//     NSArray *numberArray = [NSArray arrayFrom:1 To:5];
+//    NSLog(@"numberArray: %@", numberArray);
 }
 
 - (void)didReceiveMemoryWarning {
