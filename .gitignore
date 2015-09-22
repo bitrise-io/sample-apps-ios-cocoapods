@@ -2,3 +2,7 @@ SampleAppWithCocoapods/SampleAppWithCocoapods.xcodeproj/project.xcworkspace/xcus
 SampleAppWithCocoapods/SampleAppWithCocoapods.xcodeproj/xcuserdata
 SampleAppWithCocoapods/Pods
 SampleAppWithCocoapods/SampleAppWithCocoapods.xcworkspace/xcuserdata
+
+.bitrise*
+Gemfile.lock
+Podfile.lock
